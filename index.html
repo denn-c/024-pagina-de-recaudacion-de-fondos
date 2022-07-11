@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="asset/icon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Página de recaudación de fondos</title>
+  </head>
+  <body>
+    <header class="encabezado">
+      <nav class="encabezado__navegacion">
+        <a href="index.html" class="encabezado__imagen">
+          <img src="asset/logo.svg" alt="Logo de la pagina" />
+        </a>
+        <ul class="encabezado__lista">
+          <li class="encabezado__elemento">
+            <a href="#" class="encabezado__enlace">Sobre</a>
+          </li>
+          <li class="encabezado__elemento">
+            <a href="#" class="encabezado__enlace">Descubrir</a>
+          </li>
+          <li class="encabezado__elemento">
+            <a href="#" class="encabezado__enlace">Empezar</a>
+          </li>
+        </ul>
+        <div class="encabezado__menu"></div>
+      </nav>
+    </header>
+    <main class="cotenido">
+      <article class="contenido__encabezado">
+        <img
+          src="asset/logo-mastercraft.svg"
+          alt="Logo mastercraft"
+          class="encabezado__logo"
+        />
+        <h1 class="encabezado__titulo">
+          Elevador de monitor de bambú Mastercraft
+        </h1>
+        <p class="encabezado__descripcion">
+          Un soporte de monitor hermoso y hecho a mano para reducir la tensión
+          del cuello y los ojos.
+        </p>
+        <div class="activadores">
+          <button class="activadores__boton">Apoyar este proyecto</button>
+          <div class="activadores__marcador">
+            <input
+              type="checkbox"
+              id="marcador"
+              class="activadores__verificacion"
+            />
+            <label for="marcador" class="activadores__nombre"></label>
+          </div>
+        </div>
+      </article>
+      <article class="contenido__tablero">
+        <div class="tablero__contenedor">
+          <h2 class="trablero__cantidad">$89,914</h2>
+          <p class="tablero__descripcion">de $100,000 respaldado</p>
+        </div>
+        <div class="tablero__contenedor">
+          <h2 class="trablero__cantidad">5,007</h2>
+          <p class="tablero__descripcion">patrocinadores totales</p>
+        </div>
+        <div class="tablero__contenedor">
+          <h2 class="trablero__cantidad">56</h2>
+          <p class="tablero__descripcion">días restantes</p>
+        </div>
+        <div class="tablero__barra"></div>
+      </article>
+      <article class="contenido__informacion">
+        <h2 class="informacion__titulo">Acerca de este proyecto</h2>
+        <p class="informacion__concepto">
+          El elevador de monitor Mastercraft Bamboo es una plataforma resistente
+          y elegante que eleva su pantalla a una altura de visualización más
+          cómoda. Colocar el monitor a la altura de los ojos tiene el potencial
+          de mejorar su postura y hacerlo más cómodo en el trabajo, ayudándolo a
+          mantenerse enfocado en la tarea en cuestión.
+        </p>
+        <p class="informacion__concepto">
+          Con artesanía artesanal, la simplicidad del diseño crea espacio
+          adicional en el escritorio debajo de su computadora para permitir el
+          almacenamiento de blocs de notas, bolígrafos y memorias USB debajo del
+          soporte.
+        </p>
+        <section class="ediciones">
+          <div class="ediciones__encabezado">
+            <h2 class="ediciones__titulo">Soporte de bambú</h2>
+            <a href="#" class="ediciones__precio">donativo de $25 o más</a>
+          </div>
+          <p class="ediciones__concepto">
+            Obtienes un soporte ergonómico hecho de bambú natural. Nos ha
+            ayudado a lanzar nuestra campaña promocional, y se le agregará a una
+            lista especial de miembros patrocinadores.
+          </p>
+          <div class="ediciones__tablero">
+            <p class="ediciones__cantidad">
+              101 <span class="ediciones__descripcion">restantes</span>
+            </p>
+            <button class="ediciones__seleccionar seleccionar"id="boton__bambu">
+              Seleccionar recompensa
+            </button>
+          </div>
+        </section>
+        <section class="ediciones">
+          <div class="ediciones__encabezado">
+            <h2 class="ediciones__titulo">Soporte de edición negra</h2>
+            <a href="#" class="ediciones__precio">donativo de $75 o más</a>
+          </div>
+          <p class="ediciones__concepto">
+            Obtiene un soporte para computadora Black Special Edition y un
+            agradecimiento personal. Serás agregado a nuestro patrocinador Lista
+            de miembros. El envío está incluido.
+          </p>
+          <div class="ediciones__tablero">
+            <p class="ediciones__cantidad">
+              64 <span class="ediciones__descripcion">restantes</span>
+            </p>
+            <button class="ediciones__seleccionar seleccionar" id="boton_negra">
+              Seleccionar recompensa
+            </button>
+          </div>
+        </section>
+        <section class="ediciones">
+          <div class="ediciones__encabezado">
+            <h2 class="ediciones__titulo">Edición especial de caoba</h2>
+            <a href="#" class="ediciones__precio">donativo de $200 o más</a>
+          </div>
+          <p class="ediciones__concepto">
+            Obtiene dos soportes de caoba de edición especial, una camiseta de
+            respaldo y un agradecimiento personal. serás agregado a nuestra
+            lista de miembros patrocinadores. El envío está incluido.
+          </p>
+          <div class="ediciones__tablero">
+            <p class="ediciones__cantidad">
+              0 <span class="ediciones__descripcion">restantes</span>
+            </p>
+            <button disabled="true" class="ediciones__seleccionar seleccionar " id="boton_negra">
+              Seleccionar recompensa
+            </button>
+          </div>
+        </section>
+      </article>
+    </main>
+    <div class="modal">
+      <div class="modal__contenedor">
+        <div class="modal__encabezado">
+          <h2 class="modal__titulo">Apoyar este proyecto</h2>
+          <img
+            src="asset/icon/icon-close-modal.svg"
+            alt="Cerrar modal"
+            class="modal__cerrar"
+          />
+        </div>
+        <p class="modal__descripcion">
+          ¿Quiere ayudarnos a traer Mastercraft Bamboo Monitor Riser al mundo?
+        </p>
+        <section class="ediciones borde">
+          <div class="ediciones__encabezado">
+            <input
+              type="radio"
+              name="ediciones"
+              id="sinReconpesa"
+              class="ediciones__seleccionar radio"
+            />
+            <label for="sinReconpesa" class="ediciones__radio">
+              <h2 class="ediciones__titulo">donativo sin recompensa</h2>
+            </label>
+          </div>
+          <p class="ediciones__concepto">
+            Elige apoyarnos sin recompensa si simplemente crees en nuestro
+            proyecto. Como patrocinador, se registrará para recibir
+            actualizaciones de productos por correo electrónico.
+          </p>
+        </section>
+        <section class="ediciones borde">
+          <div class="ediciones__encabezado">
+            <input
+              type="radio"
+              name="ediciones"
+              id="bambu"
+              class="ediciones__seleccionar radio"
+            />
+            <label for="bambu" class="ediciones__radio">
+              <h2 class="ediciones__titulo">Soporte de bambú</h2>
+            </label>
+            <a href="#" class="ediciones__precio">donativo de $25 o más</a>
+            <p class="ediciones__cantidad">
+              101 <span class="ediciones__descripcion">restantes</span>
+            </p>
+          </div>
+          <p class="ediciones__concepto">
+            Obtienes un soporte ergonómico hecho de bambú natural. Nos ha
+            ayudado a lanzar nuestra campaña promocional, y se le agregará a una
+            lista especial de miembros patrocinadores.
+          </p>
+          <div class="ediciones__entrada">
+            <label for="entrada_bambu" class="edicion__donativo"
+              >Introduce tu donativo</label
+            >
+            <input
+              type="number"
+              id="entrada_bambu"
+              value="25"
+              class="edicion__campo"
+              min="25"
+            />
+            <span class="edicion__moneda">$</span>
+            <input type="submit" value="Continuar" class="edicion__boton"/>
+          </div>
+        </section>
+        <section class="ediciones borde">
+          <div class="ediciones__encabezado">
+            <input
+              type="radio"
+              name="ediciones"
+              id="negra"
+              class="ediciones__seleccionar radio"
+            />
+            <label for="negra" class="ediciones__radio">
+              <h2 class="ediciones__titulo">Soporte de edición negra</h2>
+            </label>
+            <a href="#" class="ediciones__precio">donativo de $75 o más</a>
+            <p class="ediciones__cantidad">
+              64 <span class="ediciones__descripcion">restantes</span>
+            </p>
+          </div>
+          <p class="ediciones__concepto">
+            Obtiene un soporte para computadora Black Special Edition y un
+            agradecimiento personal. Serás agregado a nuestro patrocinador Lista
+            de miembros. El envío está incluido.
+          </p>
+          <div class="ediciones__entrada">
+            <label for="entrada_negra" class="edicion__donativo"
+              >Introduce tu donativo</label
+            >
+            <input
+              type="number"
+              id="entrada_negra"
+              value="75"
+              class="edicion__campo"
+              min="75"
+            />
+            <span class="edicion__moneda">$</span>
+            <input type="submit" value="Continuar" class="edicion__boton"/>
+          </div>
+        </section>
+        <section class="ediciones">
+          <div class="ediciones__encabezado">
+            <input
+              type="radio"
+              name="ediciones"
+              id="caoba"
+              class="ediciones__seleccionar radio"
+              disabled
+            />
+            <label for="caoba" class="ediciones__radio">
+              <h2 class="ediciones__titulo">Edición especial de caoba</h2>
+            </label>
+            <a href="#" class="ediciones__precio">donativo de $200 o más</a>
+            <p class="ediciones__cantidad">
+              0 <span class="ediciones__descripcion">restantes</span>
+            </p>
+          </div>
+          <p class="ediciones__concepto">
+            Obtiene dos soportes de caoba de edición especial, una camiseta de
+            respaldo y un agradecimiento personal. serás agregado a nuestra
+            lista de miembros patrocinadores. El envío está incluido.
+          </p>
+          <div class="ediciones__entrada">
+            <label for="entrada__caoba" class="edicion__donativo"
+              >Introduce tu donativo</label
+            >
+            <input
+              type="number"
+              id="entrada__caoba"
+              value="200"
+              class="edicion__campo"
+              disabled
+              min="200"
+            />
+            <span class="edicion__moneda">$</span>
+            <input type="submit" value="Continuar" class="edicion__boton" disabled/>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="agradicimiento">
+      <div class="agradicimiento__contenedor">
+        <img
+          src="asset/icon/icon-check.svg"
+          alt="Icono de confirmación"
+          class="agradecimiento__icono"
+        />
+        <h2 class="agradecimiento__titulo">¡Gracias por su apoyo!</h2>
+        <p class="agradecimiento__contenido">
+          Nuestro compromiso nos acerca un paso más a compartir Mastercraft
+          Bamboo Monitor Riser en todo el mundo. Conseguirás un correo
+          electrónico una vez que se complete nuestra campaña.
+        </p>
+        <button class="agradecimiento__cerrar">¡Entiendo!</button>
+      </div>
+    </div>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
